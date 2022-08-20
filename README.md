@@ -5,14 +5,14 @@
 
 ## API REQUESTS
 
-### Create User(POST): 
+### `Create User(POST): `
 baseurl/createuser (pass name,age,gender,email,password as body)
 
-### Login User(POST): 
+### `Login User(POST): `
 baseurl/login (pass email,password as body )
 
-### Get User Detail(GET) : 
+### `Get User Detail(GET) : `
 baseurl/getUser (pass jwt token in headers)
 
-### Get All User SignUp Details(GET)  :
+### `Get All User SignUp Details(GET)  :`
 baseurl/getall?apikey=<apikey>
